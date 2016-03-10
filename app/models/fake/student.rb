@@ -1,6 +1,6 @@
 module Fake
   class Student < ActiveRecord::Base
-    GENDER = [ 'femail', 'male', 'missing' ]
+    GENDER = [ 'female', 'male', 'missing' ]
     YEAR   = [ 'freshman', 'sophomore', 'junior', 'senior' ]
     RACE   = [ 'asian',
                'african american',
